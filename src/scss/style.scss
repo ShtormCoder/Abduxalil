@@ -1,0 +1,279 @@
+@import 'var.scss';
+@import '_miksin.scss';
+*,*{
+    padding: 0;
+    margin: 0;
+}
+
+.bgimage{
+    height: 41.7rem;
+    width: 90%;
+    background-image: url(https://tedbook.uz/wp-content/uploads/Fon.png);
+    background-position: center center;
+    background-size: cover;
+    // position: absolute;
+}
+.kichay{
+    letter-spacing: 2px;
+    color: #ffffff;
+    margin-top: 80px;
+    font-weight: 200;
+    margin-left: 100px;
+    Line-height: 50px;
+    font-size: 40px;
+    span{
+        font-weight: 900;
+    }
+   
+}
+.kichayimg img{
+    // margin-left: 200px;
+    width: 500px;
+    height: 450px;
+    }
+.kichay2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: -65px;
+    color: #fff;
+}
+.button1 button{
+    margin-left: 200px;
+    margin-top: 70px;
+    border-radius: 45px;
+    color: #fff;
+    padding: 8px 100px;
+    font-weight: 500;
+    font-size: 20px;
+    background: transparent linear-gradient(263deg,#62E136 0%,#31C407 100%);
+}
+.sectiontwo{
+    padding-top: 50px;
+    .innersection p{
+        font-size: 70px;
+        font-weight: bolder;
+        letter-spacing: -1px;
+    }
+}
+.section_one h2{
+    font-size: 25px;
+}
+.section_one p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.check {
+    background: yellow;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 70px;
+    color: #000000;
+}
+.inavation{
+    font-size: 70px;
+    font-weight: bold;
+}
+.inoaudio{
+    font-size: 40px;
+    color: #000000;
+    font-weight: 400;
+}
+.bgimage1{
+    height: 41rem;   
+    width: 100%;
+    background-image: url(https://tedbook.uz/wp-content/uploads/orbita-1.png);
+    background-size: auto;
+    background-position: right 70% bottom 30%;
+    .images img{
+        width: 400px;
+    }
+   .images img:nth-child(2){
+       margin-left: -100px;
+       z-index: 2;
+   }
+}
+.form>.ono{
+}
+.innerform{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.innerform2{
+    font-size: 40px;
+    color: gray;
+    font-weight: 500;
+}
+.chek{
+    width: 20px;
+    height: 20px;
+
+}
+.ashimashi {
+    box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.2); 
+    width: 1200px;
+    height: 405px;
+
+    border-radius: 25px;
+    box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.2);
+    .chek{
+        margin-top: 50px;
+        width: 25px;
+        height: 25px;
+        border: 3px solid lightgreen;
+        border-radius: 50%;
+    }
+}
+
+.chekchalar,.undercheckchalar {
+    width: 100%;
+    font-size: 30px;
+}
+.inputs input{
+    margin-top: 25px;
+    border-left: none;
+    width: 400px;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.BUTTONCHA p{
+    width: 400px;
+    height: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgb(108, 216, 45);
+    &:hover{
+        color: #000;
+    }
+}
+.padarkaimg{
+    margin-left: 10%;
+}
+.underpadarka p{
+    font-size: 40px;
+}
+.qolimg{
+    height: 720px;
+    background-image: url(https://tedbook.uz/wp-content/uploads/comp-bg-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .block1{
+        height: 700px;
+        background-image: url(https://tedbook.uz/wp-content/uploads/sariq-ramka.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        .kompaniya{
+            font-size: 35px;
+            font-weight: bold;
+        }
+    }
+    .tedbook div {
+        font-size: 19px;
+        font-weight: 500;
+        span{
+            position: absolute;
+        }
+    }
+    .oqar{
+        color: white;
+    }
+}
+.bu{
+    font-size: 22px;
+    margin-top: 120px;
+}
+.gonkongda{
+    font-size: 20px;
+    font-weight: 600;
+}
+.quyidagi{
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+
+.yillar{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.paddingber{
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
+
+.buyurtma p{
+    // z-index: 999999;
+    padding: 10px 65px;
+    border-radius: 45px;
+    font-size: 30px;
+    color: #fff;
+    background: rgb(108, 216, 45);
+    transition: 0.5s;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover{
+        color: #000;
+    }
+}
+.kimlar{
+    // background-image: url(../img/odamchalar.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.614), transparent 150%), url(../img/odamchalar.jpg) no-repeat center;    background-position: top center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.buyurtma_tugma_2 {
+    border: none;
+    text-transform: uppercase;
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 1.6em;
+    outline: none;
+    color: #fff;
+    transition: 0.5s;
+    background-color: #3ecc14;
+    border-radius: 30px;
+    width: 400px;
+    height: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    &:hover{
+        color: #000;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {  }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  } 
